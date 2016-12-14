@@ -49,7 +49,7 @@ render ({ start, end }, { now }) {
 ...
 ```
 
-Built In React Attributes
+Custom React Attributes
 -------------------------
 | Attributes            | Description                                                    | Status      |
 | --------------------- | ---------------------------------------------------------------------------- | ----------- |
