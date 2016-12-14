@@ -97,7 +97,7 @@ View Port Helper Decorator
 --------------------------
 Can also be used on regular React functions.
 
-#### Old Syntax
+#### Regular Syntax
 ```javascript
 ...
 componentDidMount(x,y,z){
