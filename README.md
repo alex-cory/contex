@@ -107,13 +107,14 @@ componentDidMount(x,y,z){
  })
 }
 render () {
-  const { height, width } = this.state
+  const { height, width, now } = this.state
+  const { start, end } = this.props
   if (width <= 320) {
     // do something for Mobile
   }
   return (
-    <div show={false} href='//google.com' hideOnMobile >
-      <div hide={true}>Cool</div>
+    <div show={start > end} href='//google.com' hideOnMobile >
+      <div hide={end >= start}>{now}</div>
     </div>
   )
 
@@ -124,13 +125,30 @@ render () {
 ```javascript
 ...
 @viewPort
+render (screenSize, props, state) {
+  if (screenSize.mobile) {
+    // do something
+  }
+  return (
+    <div show={props.start > props.end} href='//google.com' hideOnMobile >
+      <div hide={props.end >= props.start}>{state.now}</div>
+    </div>
+  )
+}
+...
+```
+
+#### New Syntax Optimized
+```javascript
+...
+@viewPort
 render ({ mobile, tablet, width, iphone4 }, { start, end }, { now }) {
   if (mobile) {
     // do something
   }
   return (
-    <div show={false} href='//google.com' hideOnMobile >
-      <div hide={true}>Cool</div>
+    <div show={start > end} href='//google.com' hideOnMobile >
+      <div hide={end >= start}>{now}</div>
     </div>
   )
 }
