@@ -1,6 +1,15 @@
 # contex
 Helpers for React to make your life a little easier
 
+Features
+--------------------
+
+**[How to Use](#how-to-use)**  
+**[Extended Render Function](#extended-render-function)**  
+**[Custom React Attributes](#custom-react-attributes)**   
+**[View Port Helper Decorator](#view-port-helper-decorator)**   
+
+
 How to use
 ==========
 
