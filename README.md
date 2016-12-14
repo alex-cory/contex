@@ -14,6 +14,8 @@ How to use
 ==========
 
 ```javascript
+import { context } from 'context'
+...
 @contex
 export default class Something extends Component {
 ....
