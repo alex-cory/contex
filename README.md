@@ -69,6 +69,7 @@ Custom React Attributes
 | href         | allows any DOM element to be clickable |  |
 | hideOnMobile | hides the element when screen size is on a mobile device |  |
 | columnOnMobile | changes the current element to a flex-box column on mobile |  |
+| moment | if on an input of some kind, changes onChange argument to be a moment object |  |
 
 #### Regular Syntax
 ```javascript
