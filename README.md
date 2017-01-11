@@ -70,6 +70,9 @@ Custom React Attributes
 | hideOnMobile | hides the element when screen size is on a mobile device |  |
 | columnOnMobile | changes the current element to a flex-box column on mobile |  |
 | moment | if on an input of some kind, changes onChange argument to be a moment object |  |
+| onEsc or onEscape | calls a function when element is focused and the escape key is hit. | |
+| onEnter | calls a function when element is focused and the enter key is hit. | |
+| onTab | calls a function when element is focused and the tab key is hit. | |
 
 #### Regular Syntax
 ```javascript
