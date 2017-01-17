@@ -73,6 +73,7 @@ Custom React Attributes
 | onEsc or onEscape | calls a function when element is focused and the escape key is hit. | |
 | onEnter | calls a function when element is focused and the enter key is hit. | |
 | onTab | calls a function when element is focused and the tab key is hit. | |
+| truncate | takes arguments such as `1 line`, `2 lines`, etc. If no arguments are passed it defaults to `1 line`. Basically it just adds [css to the element that will truncate it](https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/). | |
 
 #### Regular Syntax
 ```javascript
