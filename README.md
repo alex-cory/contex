@@ -64,8 +64,8 @@ Custom React Attributes
 -------------------------
 | Attributes            | Description                                                    | Status      |
 | --------------------- | ---------------------------------------------------------------------------- | ----------- |
-| hide         | boolean value that will render or not render a component |  |
-| show         | boolean value that will render or not render a component |  |
+| hide         | boolean value that will render or not render a component or string for devices such as `hide='mobile'`|  |
+| show         | boolean value that will render or not render a component or string for devices such as `show='tablet and desktop only'` |  |
 | href         | allows any DOM element to be clickable |  |
 | hideOnMobile | hides the element when screen size is on a mobile device |  |
 | columnOnMobile | changes the current element to a flex-box column on mobile |  |
@@ -74,6 +74,8 @@ Custom React Attributes
 | onEnter | calls a function when element is focused and the enter key is hit. | |
 | onTab | calls a function when element is focused and the tab key is hit. | |
 | truncate | takes arguments such as `1 line`, `2 lines`, etc. If no arguments are passed it defaults to `1 line`. Basically it just adds [css to the element that will truncate it](https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/). | |
+| row | takes a boolean or a string such as `row='mobile'` |
+| row | takes a boolean or a string such as `column='desktop'` |
 
 #### Regular Syntax
 ```javascript
