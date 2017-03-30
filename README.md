@@ -75,7 +75,7 @@ Custom React Attributes
 | onTab | calls a function when element is focused and the tab key is hit. | |
 | truncate | takes arguments such as `1 line`, `2 lines`, etc. If no arguments are passed it defaults to `1 line`. Basically it just adds [css to the element that will truncate it](https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/). | |
 | row | takes a boolean or a string such as `row='mobile'` |
-| row | takes a boolean or a string such as `column='desktop'` |
+| column | takes a boolean or a string such as `column='desktop'` |
 
 #### Regular Syntax
 ```javascript
