@@ -76,6 +76,9 @@ Custom React Attributes
 | truncate | takes arguments such as `1 line`, `2 lines`, etc. If no arguments are passed it defaults to `1 line`. Basically it just adds [css to the element that will truncate it](https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/). | |
 | row | takes a boolean or a string such as `row='mobile'` |
 | column | takes a boolean or a string such as `column='desktop'` |
+| tooltip | allows you to add a tooltip to whatever element. Basically would take all the functionality of [react-tooltip](https://www.npmjs.com/package/react-tooltip) but make it even easier to use. |
+| hideTooltip | hide a tooltip, takes a boolean value or a string for viewport size |
+| showTooltip | shows a tooltip, takes a boolean value or a string for viewport size |
 
 #### Regular Syntax
 ```javascript
